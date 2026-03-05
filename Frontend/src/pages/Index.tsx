@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, RotateCcw, Tag, AlertCircle } from 'lucide-react';
 
 // API URL - change this after deploying to Render
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://smart-incrident-analyzer-full-project.onrender.com';
 
 interface ApiIngredient {
   name: string;
